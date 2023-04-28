@@ -1,0 +1,62 @@
+/* DOCUMENTO CSS */
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Segoe UI', sans-serif;
+	background: linear-gradient(to bottom, #609BBF 5%, #F2A74B);
+	background-attachment: fixed;
+}
+header {
+	background-color: #609BBF;
+	height: 100px;
+	padding-top: 15px;
+	color: #F2D0A7;
+	text-align: center;
+	font-family: 'Gill Sans', sans-serif;
+}
+
+main {
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+main form {
+	width: 1000px;
+	padding: 40px;
+	backdrop-filter: blur;
+	border-radius: 10px;
+	border: 1px solid #609BBF;
+}
+
+footer {
+	background-color: #4285B2;
+	height: 70px;
+	padding-top: 10px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+button {
+	width: 100px;
+	height: 50px;
+	background-color: #F2D5BB;
+	color: #593C23;
+	border-radius: 50px;
+	box-shadow: 5px 5px 5px #725339;
+	font-weight: 900;
+	margin-top: 30px;
+}
+
+footer {
+	background-color: #725339;
+	height: 70px;
+	padding-top: 10px;
+	color: #F2D5BB;
+	text-align: center;
+}

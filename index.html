@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Soul Brasil</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+        <body>
+            <header>
+            <h1>Formulário Soul Brasil</h1>
+            </header>
+        <main>
+    <form>
+           
+           <h2>Dados Pessoais</h2>
+
+        <label>Nome Completo</label>
+        <input type="text" name="campotexto" placeholder="Digite aqui..." required>
+        <br>
+
+        <label>RG</label>
+        <input type="text" name="campotexto" placeholder="000.000.000-00" required maxlength="11">
+        <br>
+
+        <label>CPF</label>
+        <input type="text" name="campotexto" placeholder="000.000.000/00" required maxlength="11">
+        <br>
+
+        <label>Data de Nascimento</label>
+        <input type="date" name="campodata" required>
+        <br>
+
+            <h2>Dados de Contato</h2>
+
+        <label>Endereço:</label><br> 
+        <input type="text" name="end" size="40" required><br>
+        <label>Bairro:</label><br> 
+        <input type="text" name="bairro" size="20" required><br>
+        <label>Cidade:</label><br> 
+        <input type="text" name="cidade" size="20" required><br> 
+        <label>Estado:</label><br> 
+        <select name="estado" required> 
+        <option selected value="SP">..</option> 
+        <option value="SP">RJ</option> 
+        <option value="SP">MG</option> 
+        <option value="SP">ES</option>
+        </select><br>
+
+        <label>Telefone</label>
+        <input type="text" name="campotexto" placeholder="00 00000-0000" required maxlength="11">
+        <br>
+
+        <label>E-mail</label>
+        <input type="email" name="campoemail" placeholder="seuemail@xmail.com" required maxlength="@">
+        <br>
+
+            <h2>Dados Profissionais</h2>
+
+        <label>Escola de formação</label><br> 
+        <input type="text" name="escola" size="40" required>
+        <br> 
+        <label>Categoria:</label><br> 
+        <input type="radio" name="categoria" value="1"> 
+        <label class="categoria">Dança</label> 
+        <input type="radio" name="categoria" value="2"> 
+        <label class="categoria">Teatro</label>    
+        <input type="radio" name="categoria" value="3"> 
+        <label class="categoria">Música</label> 
+        <input type="radio" name="categoria" value="4"> 
+        <label class="categoria">Pintura</label> 
+        <input type="radio" name="categoria" value="5"> 
+        <label class="categoria">Circense</label> 
+        <input type="radio" name="categoria" value="6"> 
+        <label class="categoria">Cinema</label> 
+        <input type="radio" name="categoria" value="7"> 
+        <label class="categoria">Escultura</label> 
+        <input type="radio" name="categoria" value="8"> 
+        <label class="categoria">Literatura</label>
+        <br> 
+
+        <label>Descrição das habilidades:</label><br> <textarea cols="70" rows="5"></textarea><br><br> 
+        <input type="submit" name="btenviar" value="ENVIAR">
+        </form>
+    </main>
+</body>
+</html>
